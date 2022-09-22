@@ -15,7 +15,14 @@
   </head>
   <body>
 
-    @yield('container')
+    <div class="login-bg position-relative">
+        <h2><a class="btn btn-dark btn-lg text-white mt-2" href="/"><i class="fa-solid fa-arrow-left"></i> Voltar</a></h2>
+        <div class="container">
+
+                    @yield('container')
+
+        </div>
+    </div>
 
     <!-- Import separate Popper and Bootstrap JS -->
     <script src="{{ asset('/js/popper.min.js') }}"></script>

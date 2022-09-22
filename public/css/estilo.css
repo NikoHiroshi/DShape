@@ -1,0 +1,154 @@
+body{
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+.text{
+    align-items: center;
+}
+
+.dshape{
+    margin-left: 10px;
+}
+
+.navas{
+    margin-left: 950px;
+}
+
+.navas2{
+    margin-left: 10px;
+}
+
+.navas3{
+    margin-left: 10px;
+}
+
+.paralaco{
+    color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/dshape.jpg);
+}
+
+.login-bg{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/loginGym.jpg);
+}
+
+.form-bg{
+    height: 190vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/cadastrarGym.jpg);
+}
+
+.bagui{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.head{
+    border-color: white;
+}
+
+.btn-site{
+    color: white;
+    border-color: rgb(0, 99, 0);
+    background-color: rgb(0, 99, 0);
+}
+
+.btn-site:hover{
+    color: rgb(0, 170, 0);
+    border-color: white;
+    background-color: white;
+}
+
+.btn-sitem{
+    color: white;
+    border-color: rgb(0, 99, 0);
+    background-color: rgb(0, 99, 0);
+}
+
+.btn-sitem:hover{
+    color: rgb(0, 170, 0);
+    border-color: rgb(0, 170, 0);
+    background-color: white;
+}
+
+.btn-cancel{
+    color: white;
+    border-color: rgb(170, 1, 1);
+    background-color: rgb(170, 1, 1);
+}
+
+.btn-cancel:hover{
+    color: rgb(170, 1, 1);
+    border-color: white;
+    background-color: white;
+}
+
+.btn-cancelm{
+    color: white;
+    border-color: rgb(170, 1, 1);
+    background-color: rgb(170, 1, 1);
+}
+
+.btn-cancelm:hover{
+    color: rgb(170, 1, 1);
+    border-color: rgb(170, 1, 1);
+    background-color: white;
+}
+
+.testo{
+    color: black;
+}
+
+.form{
+    margin-top: 10px;
+    /* border-color: white; */
+    /* background-color: rgb(17, 17, 17); */
+    border-radius: 10px;
+    box-shadow: 10px 40px 40px 10px black;
+}
+
+.login{
+    width: 900px;
+    height: 400px;
+    /* margin-top: 150px; */
+    border-radius: 10px;
+    box-shadow: 10px 40px 40px 10px black;
+}
+
+.login-img{
+    width: 350px;
+    height: 180px;
+}
+
+.register{
+    width: 825px;
+    height: 450px;
+    /* margin-top: 150px; */
+    border-radius: 10px;
+    box-shadow: 10px 40px 40px 10px black;
+}
+
+.right-side{
+    margin-top: 50px;
+}
+
+.forgor{
+    color: rgb(98, 255, 98);
+}
+
+.forgor:hover{
+    color: white;
+}
+
+.link{
+    margin-left: 10px;
+    text-decoration: none;
+}

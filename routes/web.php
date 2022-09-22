@@ -12,15 +12,29 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Home
 Route::get('/', function () {
-    return view('measurements/home');
+    return view('home');
 });
 
+//Abre a lista de medida ja existentes
 Route::get('/measurements', [MeasurementsController::class,'index']);
 
+//Nova medida
 Route::get('/measurements/new', function () {
     return view('measurements/form');
 });
 
+Route::get('/register', function () {
+    return view('user/register');
+});
+
+Route::get('/login', function () {
+    return view('user/login');
+});
+
+//Salva nova medida
 Route::post('/measurements/new',[MeasurementsController::class,'store']);
+
+//Deleta o paranaue
+Route::delete('/measurements/{id}', [MeasurementsController::class, 'destroy']);
