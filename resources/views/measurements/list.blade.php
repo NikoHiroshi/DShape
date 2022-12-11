@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="card form">
+        <div class="card form bg-dark">
           <div class="card-header head text-white text-center mt-4">
             <h2>Medidas Cadastradas</h2>
           </div>

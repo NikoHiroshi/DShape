@@ -7,7 +7,7 @@
         <div class="col-12">
             <h1 class="mx-auto">DSHAPE</h1>
             <h4>Venha fazer suas medidas hoje!</h4>
-            <a class="btn btn-site" href="/register">Tirar sua medida</a>
+            <a class="btn btn-site" href="/home2">Tirar sua medida</a>
         </div>
     </div>
 </div>

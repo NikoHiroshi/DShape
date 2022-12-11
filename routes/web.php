@@ -1,6 +1,8 @@
 <?php
 use App\Http\Controllers\MeasurementsController;
+use App\Http\Controllers\DashBoardController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Home
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [DashBoardController::class,'index']);
 
 //Abre a lista de medida ja existentes
 Route::get('/measurements', [MeasurementsController::class,'index']);
@@ -31,6 +31,10 @@ Route::get('/register', function () {
 
 Route::get('/login', function () {
     return view('user/login');
+});
+
+Route::get('/home2', function () {
+    return view('other_parts/afterHome');
 });
 
 //Salva nova medida
